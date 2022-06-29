@@ -1,6 +1,6 @@
-Kanban task management web app
+<h1>Kanban task management web app</h1>
 
-<h1>What is inside?</h1>
+<h2>What is inside?</h2>
 <ul>
   <li>React TSX</li>
   <li>Apollo Graphql</li>

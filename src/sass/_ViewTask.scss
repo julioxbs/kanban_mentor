@@ -1,0 +1,107 @@
+.viewtask-content {
+    max-width: 500px;
+    width: 100%;
+    background-color: #2c2c38;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        i {
+            color: #d9dae0;
+        }
+
+        h3 {
+            color: #d9dae0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+            width: 400px;
+            cursor: pointer;
+        }
+
+        .delete-task {
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            padding: 0.5rem;
+            cursor: pointer;
+            color: #d9dae0;
+            font-weight: bold;
+            border: none;
+            background: none;
+            
+            i {
+                color: #645ec8;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .desc-content {
+        display: flex;
+        align-items: center;
+        color: #565c6a;
+        gap: 1rem;
+
+        .description {
+            font-weight: 400;
+            margin: 1rem 0;
+    
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .substasks-info {
+        margin: 1rem 0;
+
+        p {
+            color: #d9dae0;
+        }
+
+        div {
+            background-color: #21212d;
+            border-radius: 5px;
+            margin-top: .5rem;
+            padding: 10px;
+            color: #d9dae0;
+        }
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        color: #d9dae0;
+        gap: 10px;
+
+        select {
+            padding: .3rem;
+        }
+    }
+
+    .update-btn {
+        width: 100%;
+        margin: 1rem 0;
+        padding: .5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
+        border: none;
+        border-radius: 5px;
+        background-color: #d9dae0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #21212d;
+            color: #d9dae0;
+        }
+    }
+}

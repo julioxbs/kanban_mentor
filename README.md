@@ -1,7 +1,9 @@
-# kanban_mentor
 Kanban task management web app
 
-What is inside?
+<h1>What is inside?</h1>
 <ul>
-  <li>React JS</li>
+  <li>React TSX</li>
+  <li>Apollo Graphql</li>
+  <li>MongoDB</li>
+  <li>SASS</li>
 </ul>
